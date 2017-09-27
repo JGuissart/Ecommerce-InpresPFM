@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="inprespfm.application_bateaux.Menu">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChargement"
+        android:id="@+id/R_btnChargement"
+        android:layout_alignBottom="@+id/R_etxtBienvenue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDechargement"
+        android:id="@+id/R_btnDechargement"
+        android:layout_below="@+id/R_btnChargement"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/R_btnChargement" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDeconnexion"
+        android:id="@+id/R_btnDeconnexion"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/R_btnMeanTimeInOutDocker"
+        android:layout_alignEnd="@+id/R_btnMeanTimeInOutDocker" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/R_etxtBienvenue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Containers (dé)chargés par jour"
+        android:id="@+id/R_btnContInOutJour"
+        android:layout_below="@+id/R_btnDechargement"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/R_btnDechargement" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Containers (dé)chargés par semaine et par destination"
+        android:id="@+id/R_btnContInOutWeekDest"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/R_btnContInOutJour"
+        android:layout_alignEnd="@+id/R_btnContInOutJour" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temps moyen de (dé)chargement par docker"
+        android:id="@+id/R_btnMeanTimeInOutDocker"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/R_btnContInOutWeekDest"
+        android:layout_alignEnd="@+id/R_btnContInOutWeekDest" />
+
+</RelativeLayout>

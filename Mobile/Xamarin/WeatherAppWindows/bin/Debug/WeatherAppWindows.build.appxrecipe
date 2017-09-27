@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JULIEN</Machine>
+    <WindowsUser>Julien</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>206da79e-b3e0-4fe7-b1e9-1cbe6b1230a7</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\WeatherAppWindows.exe">
+      <PackagePath>WeatherAppWindows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\WeatherAppWindows.exe.config">
+      <PackagePath>WeatherAppWindows.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Debug\Shared.dll">
+      <PackagePath>Shared.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\WeatherAppWindows.xr.xml">
+      <PackagePath>WeatherAppWindows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

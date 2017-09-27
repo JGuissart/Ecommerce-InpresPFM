@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Application_Bateaux</string>
+    <string name="btnConnexion">Connexion</string>
+    <string name="txtviewId">Identifiant du bateau :</string>
+    <string name="txtviewDestination">Destination :</string>
+    <string name="btnSignaler">Signaler</string>
+    <string name="txtviewLogin">Login :</string>
+    <string name="txtviewPwd">Mot de passe :</string>
+    <string name="txtviewDestinationget">Destination :</string>
+    <string name="txtviewOrdre">Ordre :</string>
+    <string name="btnValider">Valider</string>
+    <string name="btnTerminer">Terminer</string>
+    <string name="txtviewIdHandle">Identifiant :</string>
+    <string name="btnDecharger">Décharger</string>
+    <string name="btnTerminerHandle">Terminer</string>
+    <string name="btnChargement">Chargement</string>
+    <string name="btnDechargement">Déchargement</string>
+    <string name="btnDeconnexion">Déconnexion</string>
+</resources>

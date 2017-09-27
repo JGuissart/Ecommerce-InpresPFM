@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application_Bateaux</string>
+    <string name="btnConnexion">Sign in</string>
+    <string name="btnChargement">Loading</string>
+    <string name="btnDechargement">Unloading</string>
+    <string name="btnDeconnexion">Disconnect</string>
+    <string name="btnSignaler">Report</string>
+    <string name="txtviewPwd">Password :</string>
+    <string name="txtviewOrdre">Order :</string>
+    <string name="txtviewLogin">Login :</string>
+    <string name="txtviewIdHandle">ID :</string>
+    <string name="txtviewId">ID of boat :</string>
+    <string name="txtviewDestinationget">Destination :</string>
+    <string name="txtviewDestination">Destination :</string>
+    <string name="btnValider">Validate</string>
+    <string name="btnTerminerHandle">Finish</string>
+    <string name="btnTerminer">Finish</string>
+    <string name="btnDecharger">Unload</string>
+</resources>

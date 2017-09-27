@@ -1,0 +1,21 @@
+openssl req -x509 -newkey rsa:2048 -keyout <key-out> -out <cert-out> -days 3650
+
+
+
+# Create self signed key pair. Give it <pem-pass>
+openssl req -x509 -newkey rsa:2048 -keyout <key-out> -out <cert-out> -days 3650
+# Step one: Convert x509 Cert and Key to a pkcs12 file. Give it <pem-pass> and <p12-pass>
+openssl pkcs12 -export -in <cert-out> -inkey <key-out> -chain \
+               -out <p12-out> -name <alias> \
+               -CAfile ca.crt -caname root
+# Convert PKCS12 keystore into a JKS keystore
+keytool -importkeystore \
+        -deststorepass <store-pass> -destkeypass <store-pass> -destkeystore <keystore-out> \
+        -srckeystore <p12-out> -srcstoretype PKCS12 -srcstorepass <p12-pass> \
+        -alias <alias>
+
+# Optional: generate a stronger DHE (Diffie-Hellman ephemeral) parameter
+# either use System.setProperty("jdk.tls.ephemeralDHKeySize", "2048");
+# or generate a new one and feed it to your server somehow
+cd /etc/ssl/certs
+openssl dhparam -out dhparam.pem 2048 # or 4096, see why you shouldn't use 1024 bits primes here: https://weakdh.org/

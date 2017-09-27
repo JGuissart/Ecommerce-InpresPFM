@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <file>\Shared.dll</file>
+  <file>\WeatherAppWindows.exe</file>
+  <file>\Newtonsoft.Json.dll</file>
+</Files>

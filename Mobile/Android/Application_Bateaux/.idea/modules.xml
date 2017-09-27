@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application_Bateaux.iml" filepath="$PROJECT_DIR$/Application_Bateaux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeanBDAccess/BeanBDAccess.iml" filepath="$PROJECT_DIR$/BeanBDAccess/BeanBDAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Protocole_IOBREP/Protocole_IOBREP.iml" filepath="$PROJECT_DIR$/Protocole_IOBREP/Protocole_IOBREP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServeurMultiThreadGene/ServeurMultiThreadGene.iml" filepath="$PROJECT_DIR$/ServeurMultiThreadGene/ServeurMultiThreadGene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achartengine-1.1.0/achartengine-1.1.0.iml" filepath="$PROJECT_DIR$/achartengine-1.1.0/achartengine-1.1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

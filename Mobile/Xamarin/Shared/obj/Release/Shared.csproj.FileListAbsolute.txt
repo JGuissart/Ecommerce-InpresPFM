@@ -1,0 +1,9 @@
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Release\Shared.dll.config
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Release\Shared.dll
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Release\Shared.pdb
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Release\JsonRequest.dll
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Release\Newtonsoft.Json.dll
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\bin\Release\Newtonsoft.Json.xml
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\obj\Release\Shared.csprojResolveAssemblyReference.cache
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\obj\Release\Shared.dll
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\obj\Release\Shared.pdb

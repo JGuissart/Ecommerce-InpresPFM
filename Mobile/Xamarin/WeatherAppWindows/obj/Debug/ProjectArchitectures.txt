@@ -1,0 +1,2 @@
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\Shared\Shared.csproj;neutral
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\XamarinE_Commerce\WeatherAppWindows\WeatherAppWindows.csproj;neutral
